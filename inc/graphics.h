@@ -16,7 +16,7 @@ typedef enum
 	Button=3
 }GraphicalObject;
 
-void addObjekt(GraphicalObject Type,int xPos,int yPos,int graphValues[16],int returnMin,int returnMax,int steps);
+void addObjekt(GraphicalObject Type,int xPos,int yPos,int graphValues[16],int returnMin,int returnMax,int steps, int initValue);
 void printAllObjects();
 
 #endif /* GRAPHICS_H_ */
